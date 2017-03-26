@@ -1,0 +1,13 @@
+{
+  "name": "meezaan/onedrive",
+  "type": "library",
+  "description": "A PHP client to read public folders on Microsoft OneDrive",
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "OneDrive": "src/"
+        }
+    }
+}
