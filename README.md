@@ -1,8 +1,10 @@
 # OneDrive PHP Client for public folders and files
 
-I basically needed a way to traverse and get the file download URLs for all OneDrive files in a public folder.
+I've written this little app/library because I wanted to use a public folder on OneDrive as a CDN. Getting embed URLs from the OneDive GUI can be quite painful.
 
-This will do just that.
+To do this programatically, I  needed a way to traverse and get the file download URLs for all OneDrive files in a public folder.
+
+This will do just that using the OneDrive API.
 
 To see how it works, have a look at get.php. Simply replace the URL for the short link there with the shortlink for your public OneDrive folder and off you go.
 
